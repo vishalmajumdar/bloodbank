@@ -54,7 +54,7 @@ include_once "header.php";
                             <?php
                             } else if ($_SESSION['userType'] == "hospitals") {
                             ?>
-                                <button class="btn btn-outline-danger mx-auto" type="submit" onclick="alert('Hospitals can place request.');">Request Sample</button>
+                                <button class="btn btn-outline-danger mx-auto" type="submit" onclick="alert('Hospitals can not place request.');">Request Sample</button>
                             <?php
                             } else if ($_SESSION['userType'] == "receivers") {
                             ?><a href="availableBloodSamples.php?bloodId=<?php echo $data["id"]; ?>">
