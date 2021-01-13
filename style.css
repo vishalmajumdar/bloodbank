@@ -1,0 +1,13 @@
+/* Navigation Bar Styling */
+.container .navbar {
+    background-color: rgb(255, 240, 240);;
+}
+
+/* Form Styling */
+.container form {
+    max-width: 50%;
+    margin: 45px auto;
+    padding: 50px;
+    background-color: rgb(255, 240, 240);
+    border-radius: 10px;
+}
